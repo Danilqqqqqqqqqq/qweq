@@ -1,0 +1,13 @@
+name = input("Введите имя:  ")
+
+while name != 'alexandra':
+    name = input("Введите имя: ")
+
+count = 0
+name = input("Введите имя: ")
+
+while name != 'levon':
+    count = count + 1
+    name = input("Введите имя: ")
+
+print(count)
