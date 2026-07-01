@@ -1,1 +1,17 @@
+temp = float(input("Температура (C): "))
+pressure = float(input("Давление (верхнее): "))
+pulse = float(input("Пульс (уд/мин): "))
 
+diagnosis= 0
+
+if temp < 35 or temp > 38:
+    diagnosis += 1
+if pressure < 105 or pressure > 140:
+    diagnosis += 1
+if pulse < 55 or pulse > 110:
+    diagnosis += 1
+
+if diagnosis >= 1:
+    print("Требуется врач")
+else:
+    print("Все в порядке")
