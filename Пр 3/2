@@ -1,0 +1,6 @@
+my_list = [1, 2, 3]
+print("Первый список:", my_list)
+
+my_list[0] = 100
+print("После изменения:", my_list)
+
